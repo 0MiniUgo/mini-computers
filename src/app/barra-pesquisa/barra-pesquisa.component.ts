@@ -18,7 +18,7 @@ export class BarraPesquisaComponent implements OnInit {
   }
 
   pesquisar(){
-    if(this.descricao){
+    if(this.descricao) {
       this.router.navigate(['produtos'], {queryParams: { descricao: this.descricao } });
       return;
     }
